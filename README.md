@@ -1,6 +1,6 @@
 # Orchestrator
 
-This repository implements the Orchestrator of Fault Tolerant Service Function Chaining (FTC) system to deploy, monitor, and recover a chain of middleboxes. FTC provides fault tolerance for a chain of middleboxes. For more information refer to our paper [[1]](#1)
+This repository implements the Orchestrator of Fault Tolerant service function Chaining (FTC) system to deploy, monitor, and recover a chain of middleboxes. FTC provides fault tolerance for a chain of middleboxes. For more information refer to our paper [[1]](#1)
 
 Orchestrator contains two modules. First, the Orchestrater (can be found [here](src/main/java/org/Orchestrator))
 which deploys andmonitor a chain of middleboxes. In addition, it initiates the failure recovery procedure when
