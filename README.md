@@ -2,10 +2,9 @@
 
 This repository implements the Orchestrator of Fault Tolerant service function Chaining (FTC) system to deploy, monitor, and recover a chain of middleboxes. FTC provides fault tolerance for a chain of middleboxes. For more information refer to our paper [[1]](#1)
 
-Orchestrator contains two modules. First, the Orchestrater (can be found [here](src/main/java/org/Orchestrator))
-which deploys andmonitor a chain of middleboxes. In addition, it initiates the failure recovery procedure when
+Orchestrator contains two modules. First, the Orchestrater module (can be found [here](src/main/java/org/Orchestrator)) deploys andmonitor a chain of middleboxes. In addition, it initiates the failure recovery procedure when
 a middlebox fails.
-Second, the Agent runs a service at a host to communicate with the orchstrator (accessable from [here](src/main/java/org/Agent)).
+Second, the Agent module runs a service at a host to communicate with the orchstrator (accessable from [here](src/main/java/org/Agent)).
 
 # References
 <a id="1">[1]</a>
